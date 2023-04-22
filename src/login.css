@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+}
+
+.loginDiv {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+input {
+    width: 30%;
+    border-radius: 30px;
+    padding: 12px;
+    outline: 2px solid #fff;
+    background: #000;
+    font-weight: 600;
+    color: #fff;
+    border: none;
+}
+
+button {
+    padding: 10px 40px;
+    border-radius: 25px;
+    font-weight: 600;
+    border: 2px solid #fff;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #fff;
+    color: #000;
+}
+
+.errorMsg {
+    color: red;
+}

@@ -1,0 +1,18 @@
+.profileDiv {
+    padding: 25px;
+    color: #fff;
+}
+
+.userData, .biologicalData, .professionalData, .companyData, .bankData {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 5px 0;
+    flex-wrap: wrap;
+}
+
+img {
+    width: 120px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
